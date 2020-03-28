@@ -7,8 +7,8 @@ function gradientChange(){
 }
 function colorChange(){
     text.innerText="";
-    text.appendChild(document.createTextNode(bodybg.background));
     gradientChange();
+    text.appendChild(document.createTextNode(bodybg.background));
 };
 colorChange();
 color1.addEventListener("input",colorChange);
